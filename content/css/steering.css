@@ -1,0 +1,68 @@
+body {
+  -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#gauge, #speed {
+    display: inline-block;
+    margin: 5vw;
+}
+
+#speed {
+    right: 0px;
+    top:   0px;
+    width: 15vw;
+    height: 80vh;
+    position: absolute;
+}
+
+#gauge {
+    position: absolute:
+    left: 0px;
+    height: 80vh;
+    width: 70vw;
+    /* border: 1px solid black; */
+    display: inline-block;
+}
+
+#speedInner {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #aaa;
+    display: inline-block;
+    border-radius: 1vw;
+    background-color: #bbb;
+    -webkit-touch-callout:none;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.chevron-up, .chevron-down {
+    display: block;
+    width: 15vw;
+    height: 20vh;
+}
+
+.chevron-down {
+    transform: rotate(180deg);
+}
+
+#leftGauge1, #rightGauge1 {
+    margin-top: 8vh;
+    margin-left: 3px;
+    border: 1px solid black;
+    width: 34.4vw;
+    height: 34.4vw;
+    display: inline-block;
+}
