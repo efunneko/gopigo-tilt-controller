@@ -13,7 +13,7 @@ Login into the Raspberry Pi via ssh or through the web interface. Then in a term
     
 Then clone this repository:
 
-    git clone git://
+    git clone git@github.com:efunneko/gopigo-tilt-controller.git
     
 Finally, enter the directory and start the server:
 
