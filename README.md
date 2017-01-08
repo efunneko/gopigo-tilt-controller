@@ -28,7 +28,9 @@ It will be four numbers separated by periods, for example: 192.168.1.15
 
 Now grab a tablet or phone, launch a browser and go to http://\<your-pi-IP\>:8888
 
-If all is working you will get a screen with a couple of speed gauges and a speed slider. You can touch the speed slider and you should be able to make the wheels go forward or backwards by sliding your finger up and down. Now if you tilt the phone/table side to side it will vary the speed of the wheels in order to make it turn.
+If all is working you will get a screen as shown below, with a couple of speed gauges and a speed slider. You can touch the speed slider on the right and you should be able to make the wheels go forward or backwards by sliding your finger up and down. Now if you tilt the phone/table side to side it will vary the speed of the wheels in order to make it turn.
+
+<img width="675" alt="screenshot 2017-01-07 23 23 15" src="https://cloud.githubusercontent.com/assets/3941907/21747297/85f7cc18-d530-11e6-97e1-24ccc92d6a81.png">
 
 NOTE that you need to hold the phone or tablet in landscape orientation so that the tilting works. 
 NOTE you must only have a single phone/tablet connected to the gopigo at a time or you will confuse it.
